@@ -18,6 +18,7 @@ func main() {
 	case 2:
 		Lingkaran()
 	case 3:
+		Persegi_Panjang()
 	case 4:
 
 	default:
@@ -46,5 +47,8 @@ func Lingkaran() {
 }
 
 func Segitiga() {
+	fmt.Print("later")
+}
+func Persegi_Panjang() {
 	fmt.Print("later")
 }
