@@ -18,8 +18,9 @@ func main() {
 	case 2:
 		Lingkaran()
 	case 3:
-		Persegi_Panjang()
+		Segitiga()
 	case 4:
+		Persegi_Panjang()
 
 	default:
 		fmt.Println("Pilihan salah")
