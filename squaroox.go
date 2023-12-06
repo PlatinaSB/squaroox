@@ -48,8 +48,16 @@ func Lingkaran() {
 }
 
 func Segitiga() {
-	fmt.Print("later")
+	var alas, tinggi float64
+	fmt.Print("Masukkan alas : ")
+	fmt.Scan(&alas)
+	fmt.Print("Masukkan tinggi : ")
+	fmt.Scan(&tinggi)
+	luas := alas * tinggi * 0.5
+	fmt.Printf("luas Segitiga adalah : %.2f\n", luas)
+	main()
 }
+
 func Persegi_Panjang() {
 	fmt.Print("later")
 }
