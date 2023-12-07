@@ -59,5 +59,13 @@ func Segitiga() {
 }
 
 func Persegi_Panjang() {
-	fmt.Print("later")
+	fmt.Println("Masukkan panjang:")
+	var panjang float64
+	fmt.Scan(&panjang)
+	fmt.Println("Masukkan lebar:")
+	var lebar float64
+	fmt.Scan(&lebar)
+	luas := panjang * lebar
+	fmt.Printf("Luas Persegi Panjang adalah: %f\n", luas)
+	main()
 }
