@@ -10,7 +10,7 @@
 	let result = '';
 	const Persegi = async () => {
 		try {
-			const response = await fetch('http://localhost:8000/api/Persegi', {
+			const response = await fetch('/api/Persegi', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json'
